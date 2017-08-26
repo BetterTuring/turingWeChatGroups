@@ -1,0 +1,2 @@
+# turingWeChatGroups
+10个方向的图灵微信技术群相关事宜
