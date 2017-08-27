@@ -6,7 +6,7 @@
 - algorithms  算法
 - architecture 架构与技术管理
 - back-end  后端 
-- bigdata &  machineLearning 大数据与机器学习
+- bigData &  machineLearning 大数据与机器学习
 - front-end  前端
 - gameDev  游戏 
 - hacking & security 黑客与安全
