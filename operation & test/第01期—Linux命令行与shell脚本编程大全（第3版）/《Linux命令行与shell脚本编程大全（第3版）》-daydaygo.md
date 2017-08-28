@@ -89,5 +89,5 @@
 
 1. 这本书的重点不在「Linux 基础概念」, 但是这个确实很重要, 推荐阅读相关书籍来构建知识体系, 比如《鸟哥的Linux私房菜》
 2. 无论是命令行还是 shell 脚本编程, 都是偏「实用」的技术手段, 但其实「知道可以干什么」更重要, 实现的方式有很多种, 比如 Python, ansible, docker
-3. 推荐一本命令行参考手册 <the Linux Command Line>, 这本书有人专门制作了视频教程
+3. 推荐一本命令行参考手册 [《The Linux Command Line》](http://linuxcommand.org/tlcl.php) , 这本书还有人专门制作了视频教程 [happy peter - Linux Guide for Developers](http://www.imooc.com/learn/181)
 4. 其他（也可以说是学习方法论）: 一定要动手 / 不要纠结于方法, 可以从最简单的记笔记开始 / 概念是本质
