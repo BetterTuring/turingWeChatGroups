@@ -1,0 +1,3445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="eFs6rGuRBIN">
+  <start-date>2017-08-28T12:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>タスク 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>マイルストーン 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>グループ 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>リソース 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>設備 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>資材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>グループ 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="72000" end-time="79200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>雨帆</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+  </task>
+  <task id="t1">
+    <title>什么是 Web API</title>
+    <type>group</type>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
+    <child-task idref="t12"/>
+    <child-task idref="t14"/>
+    <child-task idref="t13"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>节属于总览介绍章节，对于</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>下了定</lit>
+          </run>
+          <run>
+            <lit>义，介绍了了</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的需求</lit>
+          </run>
+          <run>
+            <lit>场景、使用方式和为什么要设计</lit>
+          </run>
+          <run>
+            <lit>“</lit>
+          </run>
+          <run>
+            <lit>优美</lit>
+          </run>
+          <run>
+            <lit>”</lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit> Web API</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>一小</lit>
+          </run>
+          <run>
+            <lit>时内</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>节属于介绍性章节，无论以前是否接触过</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的开</lit>
+          </run>
+          <run>
+            <lit>发，都不推荐在这个章节耗费时间。对于初次接触</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的同学，建</lit>
+          </run>
+          <run>
+            <lit>议有一个大概印象即可。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>1.4</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>1.5 </lit>
+          </run>
+          <run>
+            <lit>稍微</lit>
+          </run>
+          <run>
+            <lit>细看一下即可，无重点篇章</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>个人建</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>议：</lit>
+          </run>
+          <run>
+            <lit>整本</lit>
+          </run>
+          <run>
+            <lit>书的阅读顺序，推荐第一章</lit>
+          </run>
+          <run>
+            <lit> -&gt; </lit>
+          </run>
+          <run>
+            <lit>第四章</lit>
+          </run>
+          <run>
+            <lit> -&gt; </lit>
+          </run>
+          <run>
+            <lit>第二章</lit>
+          </run>
+          <run>
+            <lit> -&gt; </lit>
+          </run>
+          <run>
+            <lit>第三章</lit>
+          </run>
+          <run>
+            <lit> -&gt; </lit>
+          </run>
+          <run>
+            <lit>第五章</lit>
+          </run>
+          <run>
+            <lit> -&gt; </lit>
+          </run>
+          <run>
+            <lit>第六章</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t2">
+    <title>端点的设计与请求的形式</title>
+    <type>group</type>
+    <child-task idref="t18"/>
+    <child-task idref="t25"/>
+    <child-task idref="t24"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t29"/>
+    <child-task idref="t30"/>
+    <child-task idref="t63"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>端点（</lit>
+          </run>
+          <run>
+            <lit>Endpoint</lit>
+          </run>
+          <run>
+            <lit>），在</lit>
+          </run>
+          <run>
+            <lit>HTTP </lit>
+          </run>
+          <run>
+            <lit>协议里面，它相当于请求地址（</lit>
+          </run>
+          <run>
+            <lit>URI</lit>
+          </run>
+          <run>
+            <lit>）。在</lit>
+          </run>
+          <run>
+            <lit>业务系统里面，相当于某个具体的业务功能。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>好的</lit>
+          </run>
+          <run>
+            <lit>请求地址，是结合业务系统：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>易</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>读、易改、有层次的</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>对于请求形式，相当于不同的</lit>
+          </run>
+          <run>
+            <lit> HTTP Method</lit>
+          </run>
+          <run>
+            <lit>，不同的</lit>
+          </run>
+          <run>
+            <lit> Method </lit>
+          </run>
+          <run>
+            <lit>有大家</lit>
+          </run>
+          <run>
+            <lit>约定俗成的操作语意，如：</lit>
+          </run>
+          <run>
+            <lit>GET </lit>
+          </run>
+          <run>
+            <lit>获取，</lit>
+          </run>
+          <run>
+            <lit>PATCH </lit>
+          </run>
+          <run>
+            <lit>更新之类的。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>节基本就是围绕着上述两大块，以设计一个</lit>
+          </run>
+          <run>
+            <lit> SNS </lit>
+          </run>
+          <run>
+            <lit>移</lit>
+          </run>
+          <run>
+            <lit>动后端</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的例子，</lit>
+          </run>
+          <run>
+            <lit>结合各种设计时需要注意的细节来说明一个好的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>该长什么样。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>天左右</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>这一章节对于熟练的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>开</lit>
+          </run>
+          <run>
+            <lit>发或者对接人员，会感觉很亲切、阅读很快。对于从来没接触过此类开发的人员，优先推荐先去了解一些流行项目的</lit>
+          </run>
+          <run>
+            <lit> Web API</lit>
+          </run>
+          <run>
+            <lit>。如：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="link">https://mesosphere.github.io/marathon/docs/generated/api.html</value>
+            </style>
+            <lit>https://mesosphere.github.io/marathon/docs/generated/api.html</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>2.2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>2.3</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>2.4</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>2.5</lit>
+          </run>
+        </p>
+        <p/>
+      </text>
+    </note>
+    <prerequisite-task idref="t1"/>
+  </task>
+  <task id="t3">
+    <title>响应数据的设计</title>
+    <type>group</type>
+    <start-constraint-date>2017-09-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t34"/>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t37"/>
+    <child-task idref="t65"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>第二章</lit>
+          </run>
+          <run>
+            <lit>说的是</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的地址和</lit>
+          </run>
+          <run>
+            <lit>请求</lit>
+          </run>
+          <run>
+            <lit> Method </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>设计，但是和</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>相关的</lit>
+          </run>
+          <run>
+            <lit>还有响应报文，本章说的就是这一块的内容。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>传统的</lit>
+          </run>
+          <run>
+            <lit> Web Service</lit>
+          </run>
+          <run>
+            <lit>主要使用</lit>
+          </run>
+          <run>
+            <lit> SOAP</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>WSDL </lit>
+          </run>
+          <run>
+            <lit>等，本</lit>
+          </run>
+          <run>
+            <lit>质上都属于</lit>
+          </run>
+          <run>
+            <lit> XML-RPC</lit>
+          </run>
+          <run>
+            <lit>。但是</lit>
+          </run>
+          <run>
+            <lit>现行的服务化兴起，微服务架构的流行，多语言的系统架构，使得大家开始倾向于使用更轻量的</lit>
+          </run>
+          <run>
+            <lit> JSON-RPC</lit>
+          </run>
+          <run>
+            <lit>。所以本章</lit>
+          </run>
+          <run>
+            <lit>讲响应数据的设计，倒不如说是</lit>
+          </run>
+          <run>
+            <lit> JSON </lit>
+          </run>
+          <run>
+            <lit>报文的设计。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>天左右</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>3.2 </lit>
+          </run>
+          <run>
+            <lit>的跨域部分如非必要，建</lit>
+          </run>
+          <run>
+            <lit>议直接</lit>
+          </run>
+          <run>
+            <lit> PASS</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>3.3</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>3.6</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t2"/>
+    <start-no-earlier-than>2017-09-01T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t4">
+    <title>最大程度地利用 HTTP 协议规范</title>
+    <type>group</type>
+    <child-task idref="t39"/>
+    <child-task idref="t43"/>
+    <child-task idref="t40"/>
+    <child-task idref="t41"/>
+    <child-task idref="t42"/>
+    <child-task idref="t44"/>
+    <child-task idref="t72"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Web API </lit>
+          </run>
+          <run>
+            <lit>本身就是基于</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>请求设计的，所以广义上的</lit>
+          </run>
+          <run>
+            <lit> Web API</lit>
+          </run>
+          <run>
+            <lit>，就是依靠</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>协议的综合交互定义。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>本章主要</lit>
+          </run>
+          <run>
+            <lit>为</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>中</lit>
+          </run>
+          <run>
+            <lit>请求头的设计，分别为：状态码、缓存头、媒体类型、跨域资源共享、</lit>
+          </run>
+          <run>
+            <lit>API </lit>
+          </run>
+          <run>
+            <lit>私有</lit>
+          </run>
+          <run>
+            <lit>头这几大块。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>天左右</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>就个人</lit>
+          </run>
+          <run>
+            <lit>经验，</lit>
+          </run>
+          <run>
+            <lit>4.3</lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>缓存在</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>设计中使用的不多，可以作为了解章节。</lit>
+          </run>
+          <run>
+            <lit>4.2</lit>
+          </run>
+          <run>
+            <lit>的状</lit>
+          </run>
+          <run>
+            <lit>态码必须掌握，</lit>
+          </run>
+          <run>
+            <lit>4.4</lit>
+          </run>
+          <run>
+            <lit>媒体类型中常遇到的</lit>
+          </run>
+          <run>
+            <lit>问题是附加报文编码问题。</lit>
+          </run>
+          <run>
+            <lit>4.5 CROS </lit>
+          </run>
+          <run>
+            <lit>需要</lit>
+          </run>
+          <run>
+            <lit>结合</lit>
+          </run>
+          <run>
+            <lit> CSRF </lit>
+          </run>
+          <run>
+            <lit>学</lit>
+          </run>
+          <run>
+            <lit>习。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>4.2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>4.4</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>4.5</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t3"/>
+  </task>
+  <task id="t5">
+    <title>开发方便更改设计的 Web API</title>
+    <type>group</type>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <child-task idref="t47"/>
+    <child-task idref="t48"/>
+    <child-task idref="t49"/>
+    <child-task idref="t74"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Web API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>变更是每个开发人员都会遇到的问题，有时可能是因为现有</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>不能</lit>
+          </run>
+          <run>
+            <lit>满足需求，有时可能是对旧的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>废弃</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>不到</lit>
+          </run>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>天</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>本章主要</lit>
+          </run>
+          <run>
+            <lit>说的内容为</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>版本化，以及基于版本化之后的</lit>
+          </run>
+          <run>
+            <lit>变更与服务编排。第五小节涉及比较多的外文文献，需要自行阅读。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>5.2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>5.5</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t4"/>
+  </task>
+  <task id="t6">
+    <title>开发牢固的 Web API</title>
+    <type>group</type>
+    <child-task idref="t51"/>
+    <child-task idref="t52"/>
+    <child-task idref="t53"/>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <child-task idref="t56"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>节旨在说明如何让</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>更加</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>安全、</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>稳定</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读时间：</lit>
+          </run>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>天多</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>本章算本</lit>
+          </run>
+          <run>
+            <lit>书中最有内容的一章，列举了比较多的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>安全性</lit>
+          </run>
+          <run>
+            <lit>问题和如何规避</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计风险。第四节的避免非法请求，第六节的流控，都属于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计中比较容易忽视但又十分重要的内容，需要仔细阅读。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>重点篇章：</lit>
+          </run>
+          <run>
+            <lit>6.3</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>6.4</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>6.6</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t5"/>
+  </task>
+  <task id="t8">
+    <title>Web API 的重要性</title>
+    <effort>600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>简单说，就是</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>历史演变过程说明。</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>无重点内容</lit>
+          </run>
+          <run>
+            <lit>，更多是</lit>
+          </run>
+          <run>
+            <lit>对</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的几个</lit>
+          </run>
+          <run>
+            <lit>经典案例的介绍。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t9">
+    <title>各种各样的 API 模式</title>
+    <effort>600</effort>
+    <locked-start-date>2017-08-28T12:10:00.000Z</locked-start-date>
+    <start-constraint-date>2017-08-28T12:10:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>此</lit>
+          </run>
+          <run>
+            <lit>处是对</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的使用</lit>
+          </run>
+          <run>
+            <lit>场景的列举。因为微服务的兴起，对于大多数开发者而言，可能最后的内部系统集成才是最主要的应用场景。</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>无重点内容</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t8"/>
+    <start-no-earlier-than>2017-08-28T12:10:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>应该通过 API 公开什么</title>
+    <effort>600</effort>
+    <locked-start-date>2017-08-28T12:20:00.000Z</locked-start-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>定</lit>
+          </run>
+          <run>
+            <lit>义</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的开放</lit>
+          </run>
+          <run>
+            <lit>边界，有点传教式的部分，个人建议</lit>
+          </run>
+          <run>
+            <lit> Pass</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>无重点内容</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t9"/>
+  </task>
+  <task id="t11">
+    <title>设计优美的 Web API 的重要性</title>
+    <effort>600</effort>
+    <locked-start-date>2017-08-28T12:30:00.000Z</locked-start-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>分四点</lit>
+          </run>
+          <run>
+            <lit>阐述了设计良好的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的好</lit>
+          </run>
+          <run>
+            <lit>处，需要结合实践来感受。</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>无重点内容</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t10"/>
+  </task>
+  <task id="t12">
+    <title>如何美化 Web API</title>
+    <effort>600</effort>
+    <locked-start-date>2017-08-28T12:40:00.000Z</locked-start-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对于两个设计基本原则的阐述：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、尊重</lit>
+          </run>
+          <run>
+            <lit>设计规范</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、尊重事</lit>
+          </run>
+          <run>
+            <lit>实标准</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>后面的四章基本都是</lit>
+          </run>
+          <run>
+            <lit>围绕着这个在进行说明</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t11"/>
+  </task>
+  <task id="t13">
+    <title>作为目标对象的开发人员数量与 API 的设计思想</title>
+    <effort>300</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>没</lit>
+          </run>
+          <run>
+            <lit>啥东西，就是说</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>是</lit>
+          </run>
+          <run>
+            <lit>给人用的，设计时要多加考虑。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t14"/>
+  </task>
+  <task id="t14">
+    <title>REST 与 Web API</title>
+    <effort>300</effort>
+    <locked-start-date>2017-08-28T12:50:00.000Z</locked-start-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>这里只是理清</lit>
+          </run>
+          <run>
+            <lit> REST </lit>
+          </run>
+          <run>
+            <lit>与</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的关系。</lit>
+          </run>
+          <run>
+            <lit>简单说：</lit>
+          </run>
+          <run>
+            <lit>REST </lit>
+          </run>
+          <run>
+            <lit>属于</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>的子集，</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>本</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>书讨论的内容不仅仅是</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit> REST</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t12"/>
+  </task>
+  <task id="t18">
+    <title>设计通过 API 公开的功能</title>
+    <effort>900</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节主要是带领读者按照业务需求列举需要的</lit>
+          </run>
+          <run>
+            <lit> Web API</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>核心思想是：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>不要按照系</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>统数据库表结构的</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit> CRUD </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>来</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>设计</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit> API</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>，而要按照</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>业务场景来列举功能点设计</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit> API</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t20">
+    <title>API 端点的设计</title>
+    <effort>3600</effort>
+    <start-constraint-date>2017-08-29T13:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节属于实战章节，结合前面两小节的内容，对于</lit>
+          </run>
+          <run>
+            <lit>2.1</lit>
+          </run>
+          <run>
+            <lit>中提及</lit>
+          </run>
+          <run>
+            <lit> SNS </lit>
+          </run>
+          <run>
+            <lit>系</lit>
+          </run>
+          <run>
+            <lit>统后端</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>进行设计。大家在阅读数，一定要对照前面的内容，加深印象和体会。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t24"/>
+    <start-no-earlier-than>2017-08-29T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>搜索与查询参数的设计</title>
+    <effort>3600</effort>
+    <start-constraint-date>2017-08-30T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节其实是对</lit>
+          </run>
+          <run>
+            <lit>2.2</lit>
+          </run>
+          <run>
+            <lit>章</lit>
+          </run>
+          <run>
+            <lit>节的补充，介绍了常见的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>请求参数。请求时附加上这些请求参数，即可在前面设计的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>基</lit>
+          </run>
+          <run>
+            <lit>础上，实现分页、搜索等特定查询。最后在</lit>
+          </run>
+          <run>
+            <lit> 2.5.5 </lit>
+          </run>
+          <run>
+            <lit>章</lit>
+          </run>
+          <run>
+            <lit>节，简单提及了请求参数和路径的设计取舍。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>节的参数，常用于</lit>
+          </run>
+          <run>
+            <lit> GET </lit>
+          </run>
+          <run>
+            <lit>请求的查询，设计</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>时候，要有一定的冗余，能兼容较多的查询方式为佳。</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>对于本小节中的数据量和相对位置的查询，主要和实际的数据持久层有关，</lit>
+          </run>
+          <run>
+            <lit>不能生搬硬套。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t20"/>
+    <start-no-earlier-than>2017-08-30T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>登录与 OAuth 2.0</title>
+    <effort>3600</effort>
+    <start-constraint-date>2017-08-30T13:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>背景</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>说明：</lit>
+          </run>
+          <run>
+            <lit>API </lit>
+          </run>
+          <run>
+            <lit>因</lit>
+          </run>
+          <run>
+            <lit>为其开放式设计和架构，一般是无</lit>
+          </run>
+          <run>
+            <lit> Session</lit>
+          </run>
+          <run>
+            <lit>（无状</lit>
+          </run>
+          <run>
+            <lit>态）的，所以对于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>如何</lit>
+          </run>
+          <run>
+            <lit>设计身份验证就至关重要。本小节列举了比较常见的</lit>
+          </run>
+          <run>
+            <lit> OAuth2 </lit>
+          </run>
+          <run>
+            <lit>认证方式。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>rfc6749 </lit>
+          </run>
+          <run>
+            <lit>对于</lit>
+          </run>
+          <run>
+            <lit> OAuth2 </lit>
+          </run>
+          <run>
+            <lit>定</lit>
+          </run>
+          <run>
+            <lit>义的认证流程，其实有好几种，本书只是介绍了其中一种。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>对于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>认证，常见的除了</lit>
+          </run>
+          <run>
+            <lit> OAuth2 </lit>
+          </run>
+          <run>
+            <lit>之外，</lit>
+          </run>
+          <run>
+            <lit>还有</lit>
+          </run>
+          <run>
+            <lit> Basic Auth</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>Key Auth</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>JWT </lit>
+          </run>
+          <run>
+            <lit>等，可以自行了解。如参考</lit>
+          </run>
+          <run>
+            <lit> Kong </lit>
+          </run>
+          <run>
+            <lit>的文档。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t21"/>
+    <start-no-earlier-than>2017-08-30T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>主机名和端点的共有部分</title>
+    <effort>600</effort>
+    <start-constraint-date>2017-08-31T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>这一节就是我在</lit>
+          </run>
+          <run>
+            <lit>2.2</lit>
+          </run>
+          <run>
+            <lit>小</lit>
+          </run>
+          <run>
+            <lit>节领读部分里面提到的取舍，实际</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计时会在地址里面加上一些额外的公共部分，如版本号之类的来描述</lit>
+          </run>
+          <run>
+            <lit> API</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点，了解即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t22"/>
+    <start-no-earlier-than>2017-08-31T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>HTTP 方法和端点</title>
+    <effort>3600</effort>
+    <start-constraint-date>2017-08-29T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>这部分内容基本和</lit>
+          </run>
+          <run>
+            <lit> RFC2616 </lit>
+          </run>
+          <run>
+            <lit>第九章（</lit>
+          </run>
+          <run>
+            <style>
+              <value key="link">https://tools.ietf.org/html/rfc2616#section-9</value>
+            </style>
+            <lit>https://tools.ietf.org/html/rfc2616#section-9</lit>
+          </run>
+          <run>
+            <lit>）一致，本小</lit>
+          </run>
+          <run>
+            <lit>节主要说明，对于同一</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+          <run>
+            <lit>，可以按照</lit>
+          </run>
+          <run>
+            <lit> HTTP Method </lit>
+          </run>
+          <run>
+            <lit>的方法不同来</lit>
+          </run>
+          <run>
+            <lit>设计不同的业务操作。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>HTTP Method </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>简述：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>GET </lit>
+          </run>
+          <run>
+            <lit>获取信息</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>POST </lit>
+          </run>
+          <run>
+            <lit>只</lit>
+          </run>
+          <run>
+            <lit>创建信息（不同于表单，不用于更新）</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>PUT </lit>
+          </run>
+          <run>
+            <lit>更新或者</lit>
+          </run>
+          <run>
+            <lit>创建信息</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>4</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>DELETE </lit>
+          </run>
+          <run>
+            <lit>删除信息</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>5</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>PATCH </lit>
+          </run>
+          <run>
+            <lit>只更新信息</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>熟悉</lit>
+          </run>
+          <run>
+            <lit> REST API </lit>
+          </run>
+          <run>
+            <lit>的同学会</lit>
+          </run>
+          <run>
+            <lit>发现，这就是常见的</lit>
+          </run>
+          <run>
+            <lit> REST API </lit>
+          </run>
+          <run>
+            <lit>定</lit>
+          </run>
+          <run>
+            <lit>义。而实际上，这些均属于</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>协议的方法定义。主流的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>均依照</lit>
+          </run>
+          <run>
+            <lit>这种请求方式设计，实现一个</lit>
+          </run>
+          <run>
+            <lit> URI </lit>
+          </run>
+          <run>
+            <lit>地址，多种操作。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>个人吐槽：</lit>
+          </run>
+          <run>
+            <lit>遇到</lit>
+          </run>
+          <run>
+            <lit>过部分国企一类的单位，因为防火墙和审计需求，只允许用</lit>
+          </run>
+          <run>
+            <lit> GET POST </lit>
+          </run>
+          <run>
+            <lit>的，此类</lit>
+          </run>
+          <run>
+            <lit>单位的开发人员需要慎重。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t25"/>
+    <start-no-earlier-than>2017-08-29T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>API 端点的设计思想</title>
+    <effort>2700</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节阐述了</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>端点（</lit>
+          </run>
+          <run>
+            <lit>URI</lit>
+          </run>
+          <run>
+            <lit>）</lit>
+          </run>
+          <run>
+            <lit>设计的原则：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>容易</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>记忆，</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>URI </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>包含的功能一目了然。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>并列</lit>
+          </run>
+          <run>
+            <lit>举了这一原则的</lit>
+          </run>
+          <run>
+            <lit>6</lit>
+          </run>
+          <run>
+            <lit>大具体特点：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、短小便于</lit>
+          </run>
+          <run>
+            <lit>输入的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、人可以</lit>
+          </run>
+          <run>
+            <lit>读懂的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>、没有大小写混用的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>4</lit>
+          </run>
+          <run>
+            <lit>、修改方便的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>5</lit>
+          </run>
+          <run>
+            <lit>、不会暴露服</lit>
+          </run>
+          <run>
+            <lit>务器端架构的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>6</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>规则统一的</lit>
+          </run>
+          <run>
+            <lit> URI</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节内容需要结合一些常见</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>去类比，</lit>
+          </run>
+          <run>
+            <lit>实际设计中，基于各种需求取舍，不会</lit>
+          </run>
+          <run>
+            <lit>100%</lit>
+          </run>
+          <run>
+            <lit>遵循</lit>
+          </run>
+          <run>
+            <lit>这些设计原则。所以重点在于体会为什么这么设计好。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t18"/>
+  </task>
+  <task id="t29">
+    <title>SSKDs 与 API 的设计</title>
+    <effort>600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>这里主要是简单介绍了</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>在</lit>
+          </run>
+          <run>
+            <lit> SSKDs </lit>
+          </run>
+          <run>
+            <lit>场景的不足，第五章才会讲的服务编排。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点，了解即可。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>名</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>词解释：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>LSUDs</lit>
+          </run>
+          <run>
+            <lit>：</lit>
+          </run>
+          <run>
+            <lit>Lerge Set of Unknown Developers</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>SSKDs</lit>
+          </run>
+          <run>
+            <lit>：</lit>
+          </run>
+          <run>
+            <lit>Small Set of Known Developers</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>本</lit>
+          </run>
+          <run>
+            <lit>书在</lit>
+          </run>
+          <run>
+            <lit> 5.1.1 </lit>
+          </run>
+          <run>
+            <lit>和</lit>
+          </run>
+          <run>
+            <lit> 5.1.2 </lit>
+          </run>
+          <run>
+            <lit>详解了两种</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的异同。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>相关文献（日文）：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="link">http://qiita.com/peka2/items/273be01065a921833878</value>
+            </style>
+            <lit>http://qiita.com/peka2/items/273be01065a921833878</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t30">
+    <title>HATEOAS 和 REST LEVEL3 API</title>
+    <effort>1020</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>REST API </lit>
+          </run>
+          <run>
+            <lit>被</lit>
+          </run>
+          <run>
+            <lit> Martin </lit>
+          </run>
+          <run>
+            <lit>分成了几个</lit>
+          </run>
+          <run>
+            <lit>级别，</lit>
+          </run>
+          <run>
+            <lit>HATEOAS</lit>
+          </run>
+          <run>
+            <lit>属于</lit>
+          </run>
+          <run>
+            <lit>级别</lit>
+          </run>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>综合体现。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>偏理</lit>
+          </run>
+          <run>
+            <lit>论，没有实质性的实用内容，了解即可，不要多花时间。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>背景</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>说明：</lit>
+          </run>
+          <run>
+            <lit>Martin </lit>
+          </run>
+          <run>
+            <lit>还是现在时常被人讨论的微服务架构的布道者，微服务本身，和</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>是一脉相承的。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t29"/>
+  </task>
+  <task id="t32">
+    <title>数据格式</title>
+    <effort>600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Web API </lit>
+          </run>
+          <run>
+            <lit>常</lit>
+          </run>
+          <run>
+            <lit>见的数据交互格式有</lit>
+          </run>
+          <run>
+            <lit> XML</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>JSON</lit>
+          </run>
+          <run>
+            <lit>。各有千秋，</lit>
+          </run>
+          <run>
+            <lit>JSON</lit>
+          </run>
+          <run>
+            <lit>胜在于简单，很多语言原生支持。</lit>
+          </run>
+          <run>
+            <lit>XML </lit>
+          </run>
+          <run>
+            <lit>在于有</lit>
+          </run>
+          <run>
+            <lit> Scheme </lit>
+          </run>
+          <run>
+            <lit>一类的</lit>
+          </run>
+          <run>
+            <lit>规范定义，能对报文校验，但因为过于复杂，虽然在一些企业级框架项目内还能看到，但实际上不是很常见了。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>本</lit>
+          </run>
+          <run>
+            <lit>节除了介绍格式之外，还介绍了如何在支持多格式的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>内定</lit>
+          </run>
+          <run>
+            <lit>义用户所需格式。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点内容，了解即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t33">
+    <title>使用 JSONP</title>
+    <effort>1200</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>浏览器对于</lit>
+          </run>
+          <run>
+            <lit> XHTTPRequest </lit>
+          </run>
+          <run>
+            <lit>有同源策略，</lit>
+          </run>
+          <run>
+            <lit>这里介绍</lit>
+          </run>
+          <run>
+            <lit> JSONP </lit>
+          </run>
+          <run>
+            <lit>目的在于</lit>
+          </run>
+          <run>
+            <lit>实现跨域。不属于需要重点学习的内容，对于后端</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>开</lit>
+          </run>
+          <run>
+            <lit>发者而言，只需了解即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t32"/>
+  </task>
+  <task id="t34">
+    <title>数据内部结构的思考方法</title>
+    <effort>5400</effort>
+    <start-constraint-date>2017-09-01T12:30:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节为第三章较为重点的内容。</lit>
+          </run>
+          <run>
+            <lit>API </lit>
+          </run>
+          <run>
+            <lit>报文如果过于简单，会增加调用次数，增加调用难度。但如果过于复杂，在性能等指标上又达不到业务需求。所以，需要结合不同场景设计。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>本</lit>
+          </run>
+          <run>
+            <lit>节基于上述观点，列举</lit>
+          </run>
+          <run>
+            <lit>5</lit>
+          </run>
+          <run>
+            <lit>个需要在响</lit>
+          </run>
+          <run>
+            <lit>应报文内注意的方面：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、用</lit>
+          </run>
+          <run>
+            <lit>户定制响应内容</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、是否需要包装</lit>
+          </run>
+          <run>
+            <lit>统一响应结构</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>、数据是否需要分</lit>
+          </run>
+          <run>
+            <lit>层级</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>4</lit>
+          </run>
+          <run>
+            <lit>、序列数据是否需要包装</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>5</lit>
+          </run>
+          <run>
+            <lit>、序列个数与后</lit>
+          </run>
+          <run>
+            <lit>续数据查询</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>本</lit>
+          </run>
+          <run>
+            <lit>节报文设计内容非硬式要求，在实际设计</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的</lit>
+          </run>
+          <run>
+            <lit>时候，请依照业务需求，选择性使用。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t33"/>
+    <start-no-earlier-than>2017-09-01T12:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t35">
+    <title>各个数据的格式</title>
+    <effort>1200</effort>
+    <start-constraint-date>2017-09-02T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节主要是对常见的数据字段的命名和值的选取。包含用户</lit>
+          </run>
+          <run>
+            <lit> ID</lit>
+          </run>
+          <run>
+            <lit>、性别、日期等数据。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>重点在于大整数的数据，因</lit>
+          </run>
+          <run>
+            <lit>为精度问题，有时候会有误差、科学计数等问题，需要考虑使用字符串数字表示。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t34"/>
+    <start-no-earlier-than>2017-09-02T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t36">
+    <title>响应数据的设计</title>
+    <effort>300</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>无</lit>
+          </run>
+          <run>
+            <lit>实际内容，过于啰嗦。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t35"/>
+  </task>
+  <task id="t37">
+    <title>出错信息的表示</title>
+    <effort>3000</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>调用出现异常时，如何比较恰当地通知调用方也属于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计是否规范的标准之一。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节从</lit>
+          </run>
+          <run>
+            <lit> HTTP Status Code</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>HTTP Response Head</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>HTTP Response Body </lit>
+          </run>
+          <run>
+            <lit>三个方面列</lit>
+          </run>
+          <run>
+            <lit>举了异常通知的方式。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>需要自行了解常</lit>
+          </run>
+          <run>
+            <lit>见的</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>状</lit>
+          </run>
+          <run>
+            <lit>态码对应的语义，本书在</lit>
+          </run>
+          <run>
+            <lit> P107 </lit>
+          </run>
+          <run>
+            <lit>有涉及，可以提前看一下。包含</lit>
+          </run>
+          <run>
+            <lit>业务语义的统一错误信息包装，需要在设计和开发</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>时就予以考虑，避免返回意义不明的报错信息。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t36"/>
+  </task>
+  <task id="t39">
+    <title>使用 HTTP 协议规范的意义</title>
+    <effort>600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节主要是对</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>的一些</lit>
+          </run>
+          <run>
+            <lit>标准背景介绍，实际与之相关的</lit>
+          </run>
+          <run>
+            <lit> RFC </lit>
+          </run>
+          <run>
+            <lit>文档建</lit>
+          </run>
+          <run>
+            <lit>议在闲的时候阅读。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点内容，了解即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t40">
+    <title>缓存与 HTTP 协议规范</title>
+    <effort>3300</effort>
+    <start-constraint-date>2017-09-03T13:05:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>缓存相关的定义，在</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>开</lit>
+          </run>
+          <run>
+            <lit>发时多使用</lit>
+          </run>
+          <run>
+            <lit> Gateway </lit>
+          </run>
+          <run>
+            <lit>进行包装，但目前无看到具体的使用范例，建议了解即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t43"/>
+    <start-no-earlier-than>2017-09-03T13:05:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t41">
+    <title>媒体类型的指定</title>
+    <effort>2100</effort>
+    <start-constraint-date>2017-09-04T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节介绍了媒体类型的格式，并列举了常见的媒体类型。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>本章的内容</lit>
+          </run>
+          <run>
+            <lit>编排上稍有混乱，实际上需要学习的东西为一下三点。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、有哪些媒体类型。</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>Content-Type </lit>
+          </run>
+          <run>
+            <lit>来</lit>
+          </run>
+          <run>
+            <lit>约定消息接收方该以什么格式解析报文</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>Accept </lit>
+          </run>
+          <run>
+            <lit>来</lit>
+          </run>
+          <run>
+            <lit>约定消息发送方能发送哪些格式的报文</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t40"/>
+    <start-no-earlier-than>2017-09-04T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t42">
+    <title>同源策略和跨域资源共享</title>
+    <effort>2100</effort>
+    <start-constraint-date>2017-09-04T12:35:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>同源策略主要用于跨域或提供</lit>
+          </run>
+          <run>
+            <lit>给浏览器的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>设计时要考虑的东西。如果用于内系统集成的，则无此考虑。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>补充资料：</lit>
+          </run>
+          <run>
+            <style>
+              <value key="link">https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS</value>
+            </style>
+            <lit>https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t41"/>
+    <start-no-earlier-than>2017-09-04T12:35:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t43">
+    <title>正确使用 HTTP 状态码</title>
+    <effort>3300</effort>
+    <start-constraint-date>2017-09-03T12:10:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节主要介绍了常见的</lit>
+          </run>
+          <run>
+            <lit>4</lit>
+          </run>
+          <run>
+            <lit>类状</lit>
+          </run>
+          <run>
+            <lit>态码，</lit>
+          </run>
+          <run>
+            <lit>2xx</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>3xx</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>4xx</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>5xx</lit>
+          </run>
+          <run>
+            <lit>。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读提示：</lit>
+          </run>
+          <run>
+            <lit>在</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>设计的时候，多以</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>状</lit>
+          </run>
+          <run>
+            <lit>态码来描述请求结果，尤其是在出现异常状态的时候。请结合前面的</lit>
+          </run>
+          <run>
+            <lit> 3.6 </lit>
+          </run>
+          <run>
+            <lit>节加深理解。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t39"/>
+    <start-no-earlier-than>2017-09-03T12:10:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t44">
+    <title>定义私有的 HTTP 头部</title>
+    <effort>1200</effort>
+    <start-constraint-date>2017-09-04T13:10:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>私有</lit>
+          </run>
+          <run>
+            <lit> HTTP </lit>
+          </run>
+          <run>
+            <lit>头部，主要的使用场景是为请求增加额外的信息。比如：</lit>
+          </run>
+          <run>
+            <lit>OAuth2 </lit>
+          </run>
+          <run>
+            <lit>认证后给请求附加上对应的授权用户</lit>
+          </run>
+          <run>
+            <lit> ID </lit>
+          </run>
+          <run>
+            <lit>信息。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>用它的最关</lit>
+          </run>
+          <run>
+            <lit>键原因是，对于不同的</lit>
+          </run>
+          <run>
+            <lit> HTTP Method</lit>
+          </run>
+          <run>
+            <lit>，</lit>
+          </run>
+          <run>
+            <lit>请求头是所有</lit>
+          </run>
+          <run>
+            <lit> Method </lit>
+          </run>
+          <run>
+            <lit>都能修改的地方。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t42"/>
+    <start-no-earlier-than>2017-09-04T13:10:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t45">
+    <title>方便更改设计的重要性</title>
+    <effort>900</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节列举了三种不同的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>使用</lit>
+          </run>
+          <run>
+            <lit>场景，和在这些场景下如果需要变更</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>会</lit>
+          </run>
+          <run>
+            <lit>导致的问题，侧面说明</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计初期就需要考虑易于变更的重要性。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点内容，了解大概了解</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>有三大类即可。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t46">
+    <title>通过版本信息来管理 API</title>
+    <effort>2700</effort>
+    <start-constraint-date>2017-09-05T12:15:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>为了便于</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>变更，需要给</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>增加版本信息。本小</lit>
+          </run>
+          <run>
+            <lit>节主要讲了三种方式：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+          <run>
+            <lit>、地址中增加版本号</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+          <run>
+            <lit>、</lit>
+          </run>
+          <run>
+            <lit>请求参数中增加版本号</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+          <run>
+            <lit>、媒体类型指定版本号</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <lit>同</lit>
+          </run>
+          <run>
+            <lit>时还简单说了一下版本号如何定义，相信在参考目前各类开放平台的</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>大家会有自己加版本号的想法。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t45"/>
+    <start-no-earlier-than>2017-09-05T12:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t47">
+    <title>版本变更的方针</title>
+    <effort>600</effort>
+    <start-constraint-date>2017-09-05T13:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节只是简述了一些版本变更中如何尽可能向下兼容的方式，说白了，就是冗余字段。如非必要，尽可能不要有大版本变动。</lit>
+          </run>
+        </p>
+        <p/>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>阅读建议：</lit>
+          </run>
+          <run>
+            <lit>无重点内容</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t46"/>
+    <start-no-earlier-than>2017-09-05T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>终止提供 API</title>
+    <effort>3000</effort>
+    <start-constraint-date>2017-09-05T13:10:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>无重点内容，更多是</lit>
+          </run>
+          <run>
+            <lit>实践性教条。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t47"/>
+    <start-no-earlier-than>2017-09-05T13:10:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>编排层</title>
+    <effort>5400</effort>
+    <start-constraint-date>2017-09-06T12:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本章</lit>
+          </run>
+          <run>
+            <lit>简单说了一下</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>编排，但是关键内容都以脚注形式提供，本章的阅读重点在于对于脚注的</lit>
+          </run>
+          <run>
+            <lit>4</lit>
+          </run>
+          <run>
+            <lit>篇文献，需要仔</lit>
+          </run>
+          <run>
+            <lit>细阅读。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t48"/>
+    <start-no-earlier-than>2017-09-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>让 Web API 变得安全</title>
+    <effort>600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>本小</lit>
+          </run>
+          <run>
+            <lit>节主要是列举</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>的三大</lit>
+          </run>
+          <run>
+            <lit>问题，无任何重点内容。</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t52">
+    <title>非法获取服务器端和客户端之间的信息</title>
+    <effort>1500</effort>
+    <start-constraint-date>2017-09-07T12:10:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t51"/>
+    <start-no-earlier-than>2017-09-07T12:10:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t53">
+    <title>使用浏览器访问 API 时的问题</title>
+    <effort>5100</effort>
+    <start-constraint-date>2017-09-07T12:35:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t52"/>
+    <start-no-earlier-than>2017-09-07T12:35:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>思考防范恶访问的对策</title>
+    <effort>2340</effort>
+    <start-constraint-date>2017-09-08T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-09-08T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>同安全相关的 HTTP 首部</title>
+    <effort>2400</effort>
+    <start-constraint-date>2017-09-08T12:40:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-09-08T12:40:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>应对大规模访问的对策</title>
+    <effort>8400</effort>
+    <start-constraint-date>2017-09-08T13:20:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-09-08T13:20:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>第二章自我总结</title>
+    <effort>4980</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>梳理前面</lit>
+          </run>
+          <run>
+            <lit>阅读的内容，结合常见的</lit>
+          </run>
+          <run>
+            <lit> Web API </lit>
+          </run>
+          <run>
+            <lit>体会如何</lit>
+          </run>
+          <run>
+            <lit>设计</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t30"/>
+  </task>
+  <task id="t65">
+    <title>第三章总结</title>
+    <effort>2700</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>复</lit>
+          </run>
+          <run>
+            <lit>习梳理第三章内容，自我总结</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>报文该如何设计</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t37"/>
+  </task>
+  <task id="t72">
+    <title>第四章总结</title>
+    <effort>1800</effort>
+    <start-constraint-date>2017-09-04T13:29:45.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>复</lit>
+          </run>
+          <run>
+            <lit>习梳理第四章内容，自我总结</lit>
+          </run>
+          <run>
+            <lit> HTTP Head </lit>
+          </run>
+          <run>
+            <lit>在</lit>
+          </run>
+          <run>
+            <lit> API </lit>
+          </run>
+          <run>
+            <lit>设计中需要注意的点</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t44"/>
+    <start-no-earlier-than>2017-09-04T13:29:45.000Z</start-no-earlier-than>
+  </task>
+  <task id="t74">
+    <title>第五章总结</title>
+    <effort>1800</effort>
+    <start-constraint-date>2017-09-06T13:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t49"/>
+    <start-no-earlier-than>2017-09-06T13:30:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
