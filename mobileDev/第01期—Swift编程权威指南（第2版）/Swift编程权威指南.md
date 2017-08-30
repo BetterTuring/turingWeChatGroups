@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>领读人</td>
-    <td>[Story5](https://github.com/Story5)</td>
+    <td><a href="https://github.com/Story5" target="blank">Story5</a></td>
   </tr>
   <tr>
     <td>本书特色：</td>
