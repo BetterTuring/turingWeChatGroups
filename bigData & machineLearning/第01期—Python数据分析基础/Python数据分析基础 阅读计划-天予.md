@@ -25,7 +25,10 @@
 
 ##### 阅读日时长：2小时
 
-##### 答疑时间：每周日晚上 20:00—22:00
+##### 答疑时间：每周日晚 20:00—22:00
+
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/1912">http://www.ituring.com.cn/book/1912</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
 
 <br>
 

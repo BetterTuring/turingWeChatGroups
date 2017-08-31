@@ -1,6 +1,8 @@
 #《图解TCP/IP（第5版）》阅读计划
 ——图灵运维与测试群阅读计划（第1期）
 
+<br>
+
 ##### 领读人：FPs
 
 ##### 本书特色
@@ -19,7 +21,10 @@
 
 ##### 每天阅读用时：2小时  
 
-##### 答疑时间安排：每周一次，每周六晚运维与测试群 20:00—22:00
+##### 答疑时间安排：每周一次，每周日晚运维与测试群 20:00—22:00
+
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/1018">http://www.ituring.com.cn/book/1018</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
 
 <br>
 

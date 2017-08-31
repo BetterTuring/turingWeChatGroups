@@ -21,6 +21,9 @@
 
 ##### 答疑时间安排：每周一次，每周六晚移动开发群 20:00—22:00
 
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/2038">http://www.ituring.com.cn/book/2038</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
+
 
 <br>
 

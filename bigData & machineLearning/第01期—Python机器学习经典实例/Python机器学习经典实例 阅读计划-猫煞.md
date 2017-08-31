@@ -21,6 +21,9 @@
 
 ##### 每天阅读用时：2小时
 
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/1894">http://www.ituring.com.cn/book/1894</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
+
 <br>
 
 
