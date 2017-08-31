@@ -112,14 +112,13 @@
 3. 遇到问题记得常来这里 [GitHub - BetterTuring/turingWeChatGroups](https://github.com/BetterTuring/turingWeChatGroups)提issue，我们还会定期搜集关键问题在微信群里和大家一起讨论。
 
 > 对了，上文提到的奖励，将在领读开始一个月后送出，采用积分制评选：  
-> 每次有效打卡积1分；  
-> 每篇优秀的读书笔记积3分。
+> 每次有效打卡积1分；每篇优秀的读书笔记积3分。
 
 最后附打卡二维码如下：
 
-![打开二维码](https://github.com/BetterTuring/turingWeChatGroups/blob/master/front-end/%E7%AC%AC01%E6%9C%9F%E2%80%94JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89/Professional%20JavaScript%20for%20Web%20Developers%20Reading%20Microapp.jpg?raw=true)
+![打开二维码](https://github.com/BetterTuring/turingWeChatGroups/blob/master/front-end/%E7%AC%AC01%E6%9C%9F%E2%80%94JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89/Micro.jpg?raw=true =150x150)
 
-> 领读者：zhangwang  / 2017年 8月 30日
+
 
 
 
