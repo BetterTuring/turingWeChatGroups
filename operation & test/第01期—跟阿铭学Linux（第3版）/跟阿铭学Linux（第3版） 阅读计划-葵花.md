@@ -4,6 +4,13 @@
 <br>
 
 ##### 领读人：葵花
+##### 总阅读时长（预估）：5周
+##### 每天用时：2个小时（根据自身实际安排，仅供参考）
+##### 答疑时间安排：每周一次，每周六图灵运维与测试群 20:00—22:00
+
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/2399">http://www.ituring.com.cn/book/2399</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
+
 
 ##### 本书特色
 
@@ -22,11 +29,7 @@
 2. 想提升自身Linux基础的工作人员
 
 
-##### 总阅读时长（预估）：5周
 
-##### 每天用时：2个小时（根据自身实际安排，仅供参考）
-
-##### 答疑时间安排：每周一次，每周六图灵运维与测试群 20:00—22:00
 
 ### 读前须知
 

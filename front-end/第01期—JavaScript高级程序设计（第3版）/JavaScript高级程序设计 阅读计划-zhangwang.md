@@ -8,11 +8,20 @@
 
 ##### 领读人：zhangwang
 
-##### 本书特色  
+##### 总阅读时长：30—45 天
+
+##### 答疑时间安排：每周一次，每周四晚图灵前端群 20:00—22:00
+
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/946">http://www.ituring.com.cn/book/946</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
+
+<div style="margin-top:20px"></div>
+
+### 本书特色  
 
 能系统地学习一门技艺的人是幸运的，系统的学习往往使人更具全局观，能更快地找到新问题的解决思路。遇到《高程》的我们是幸运的，因为它就是这么一本能带我们系统学习JS的书籍。无论你用之入门还是用之进阶，认真读完，都能有不菲的收获。
 
-##### 推荐读者 
+### 推荐读者 
 
 《高程》提供了 JavaScript 开发人员必须掌握的所有基础内容。从基础的语法到各种高级语言特性，书中均有涉及。鉴于此，如果你在以下群体中，推荐参与本次跟读：
 
@@ -22,10 +31,6 @@
 - 想要夯实基础的前端开发者们
 >这些年的前端可谓野性生长，各种库各种工具层出不穷，可能你也曾用一些库，某个框架开发过一些功能还算不错的程序，或者工作中的你没有遇到太大的困难，但是却总是担心对一些基础的内容的理解有所欠缺将影响今后的发展，那么参与本次跟读，我们将一起打消心中的疑惑。
 
-##### 总阅读时长：30—45 天
- 
-
-##### 答疑时间安排：每周一次，每周四晚图灵前端群 20:00—22:00
 
 <br>
 
@@ -107,14 +112,13 @@
 3. 遇到问题记得常来这里 [GitHub - BetterTuring/turingWeChatGroups](https://github.com/BetterTuring/turingWeChatGroups)提issue，我们还会定期搜集关键问题在微信群里和大家一起讨论。
 
 > 对了，上文提到的奖励，将在领读开始一个月后送出，采用积分制评选：  
-> 每次有效打卡积1分；  
-> 每篇优秀的读书笔记积3分。
+> 每次有效打卡积1分；每篇优秀的读书笔记积3分。
 
 最后附打卡二维码如下：
 
-![打开二维码](http://7xs0ss.com1.z0.glb.clouddn.com/turing/img/%E3%80%8AJavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E3%80%8B.jpg)
+![打开二维码](https://github.com/BetterTuring/turingWeChatGroups/blob/master/front-end/%E7%AC%AC01%E6%9C%9F%E2%80%94JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89/Micro.jpg?raw=true =150x150)
 
-> 领读者：zhangwang  / 2017年 8月 30日
+
 
 
 

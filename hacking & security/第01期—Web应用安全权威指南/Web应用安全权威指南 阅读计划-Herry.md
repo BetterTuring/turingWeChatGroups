@@ -22,9 +22,12 @@ Web安全初学者，对安全感兴趣的任何人
 
 每周三晚 21:00—23:00，每日阅读有问题也可以在群内 @herry 交流。
 
+###### 图灵社区本书网址：<a href="http://www.ituring.com.cn/book/1249">http://www.ituring.com.cn/book/1249</a>
+###### 图灵阅读计划网址：<a href="https://github.com/BetterTuring/turingWeChatGroups">https://github.com/BetterTuring/turingWeChatGroups</a>
+
+<div style="margin-top:15px"></div>
 
 #### 阅读建议   
-
 
 按照书的内容，多练，想明白这个安全问题形成的原因，利用的方法，防御的方法，绕过的方法。
 
