@@ -116,7 +116,7 @@
 
 最后附打卡二维码如下：
 
-![打开二维码](https://github.com/BetterTuring/turingWeChatGroups/blob/master/front-end/%E7%AC%AC01%E6%9C%9F%E2%80%94JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89/Micro.jpg?raw=true =150x150)
+![打开二维码](https://github.com/BetterTuring/turingWeChatGroups/blob/master/front-end/%E7%AC%AC01%E6%9C%9F%E2%80%94JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89/Micro.jpg?raw=true)
 
 
 
