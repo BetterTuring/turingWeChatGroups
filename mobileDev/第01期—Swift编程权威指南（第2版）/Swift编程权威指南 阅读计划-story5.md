@@ -160,70 +160,70 @@
     <td>18.1 ~ 18.4</td>
   </tr>
   <tr>
-    <td>第23天</td>
+    <td>第24天</td>
     <td>18.5 ~ 18.8</td>
   </tr>
   <tr>
     <td rowspan="10">第五部分 Swift高级编程</td>
-    <td>第24天</td>
+    <td>第25天</td>
     <td>第19章 协议</td>
     <td></td>
   </tr>
   <tr>
-    <td>第25天</td>
+    <td>第26天</td>
     <td>第20章 错误处理</td>
     <td></td>
   </tr>
   <tr>
-    <td>第26天</td>
+    <td>第27天</td>
     <td>第21章 扩展</td>
     <td></td>
   </tr>
   <tr>
-    <td>第27天</td>
+    <td>第28天</td>
     <td rowspan="3">第22章 泛型</td>
     <td>22.1 ~ 22.2</td>
   </tr>
   <tr>
-    <td>第28天</td>
+    <td>第29天</td>
     <td>22.3 ~ 22.8</td>
   </tr>
   <tr>
-    <td>第29天</td>
+    <td>第30天</td>
     <td>22.9 ~ 22.10</td>
   </tr>
   <tr>
-    <td>第30天</td>
+    <td>第31天</td>
     <td>第23章 协议扩展</td>
     <td></td>
   </tr>
   <tr>
-    <td>第31天</td>
+    <td>第32天</td>
     <td rowspan="2">第24章 内存管理和ARC</td>
     <td>24.1 ~ 24.3</td>
   </tr>
   <tr>
-    <td>第32天</td>
+    <td>第33天</td>
     <td>24.4 ~ 24.8</td>
   </tr>
   <tr>
-    <td>第32天</td>
+    <td>第34天</td>
     <td>第25章 Equatable和Comparable</td>
     <td></td>
   </tr>
   <tr>
     <td rowspan="4">第六部分 事件驱动的应用</td>
-    <td>第33天</td>
+    <td>第35天</td>
     <td>第26章 第一个Cocoa应用</td>
     <td></td>
   </tr>
   <tr>
-    <td>第34天</td>
+    <td>第36天</td>
     <td>第27章 第一个iOS应用</td>
     <td></td>
   </tr>
   <tr>
-    <td>第35天</td>
+    <td>第37天</td>
     <td>第28章 互操作</td>
     <td></td>
   </tr>
@@ -279,4 +279,4 @@
 <div style="margin-top:10px"></div>
 第六部分通过创建基本的应用形式，让我们熟悉iOS编程的过程。大家跟着书中的实例一步步练习熟悉。
 <div style="margin-top:10px"></div>
-#### 第 26 章 第一个Cocoa应用###### 阅读时长：2小时##### 重点内容* 自动布局##### 补充想更深入的研究自动布局-autolayout可以看这本书[《iOS Auto Layout开发秘籍(第2版)》](https://www.amazon.cn/图书/dp/B00R4AG4CW/ref=sr_1_1?ie=UTF8&qid=1503991359&sr=8-1&keywords=autolayout)。#### 第 27 章 第一个iOS应用###### 阅读时长：2小时#### 第 28 章 互操作###### 阅读时长：2小时
+#### 第 26 章 第一个Cocoa应用###### 阅读时长：2小时##### 重点内容* 自动布局##### 补充想更深入的研究自动布局-autolayout可以看这本书[《iOS Auto Layout开发秘籍(第2版)》](https://www.amazon.cn/图书/dp/B00R4AG4CW/ref=sr_1_1?ie=UTF8&qid=1503991359&sr=8-1&keywords=autolayout)。#### 第 27 章 第一个iOS应用###### 阅读时长：2小时#### 第 28 章 互操作###### 阅读时长：2小时
