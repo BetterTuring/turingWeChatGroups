@@ -81,7 +81,7 @@ __难点内容__
 
 #### 补充
 
-- 可以实现 _instanceof() 或 _new() 函数简单实现 instanceof 或 new 关键字的功能
+- 可以实现 `_instanceof()` 或 `_new()` 函数简单实现 `instanceof` 或 `new` 关键字的功能（适当的造点轮子）
 - 试比较作用域链和原型链，找出它们之间的异同。
 
 
